@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: #5c1af7d7;
-  --primary-color-dark: #ec3030ef;
+  --primary-color-dark: #a889f1ef;
   --secondary-color: #ca8a04;
   --text-dark: #1f2937;
   --text-light: #6b7280;
@@ -47,6 +47,7 @@ nav .logo a {
   font-weight: 600;
   color: var(--primary-color);
   transition: 0.3s;
+  font-family: 'Lobster', sans-serif;
 }
 nav .logo a:hover {
   color: var(--primary-color-dark);
@@ -176,12 +177,23 @@ ul li a:hover {
 .image {
   display: grid;
   place-items: center;
+  background: linear-gradient(
+    -45deg,
+    #00ff66,
+    #00ffff,
+    #ff00ff,
+    #ff0099,
+    #099fff
+  );
+  clip-path: circle();
 }
 
 .image img {
   width: min(25rem, 90%);
   border-radius: 100%;
   clip-path: circle();
+  width: 515px;  
+  border: 10px;
 }
 
 @media (width < 750px) {
@@ -230,11 +242,10 @@ ul li a:hover {
   text-align: auto;
   background-color: #dcc4f5;
   padding: 5%;
-  
-
 }
 
 .about-text h1{
+font-family: 'Sriracha', cursive;
 font-size: 500%;
 color: var(--primary-color)
 }
@@ -244,7 +255,7 @@ color: var(--primary-color)
   padding: 1%;
 }
  .about-text span{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Young Serif', serif;
   color: var(--primary-color)
  }
 
@@ -256,13 +267,14 @@ color: var(--primary-color)
  }
 
  .education-text h1{
+  font-family: 'Sriracha', cursive;
   font-size: 500%;
   color: var(--primary-color)
  }
 
  .education-text span{
+  font-family: 'Young Serif', serif;
   font-size: 180%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: var(--primary-color)
  }
 
@@ -285,13 +297,19 @@ color: var(--primary-color)
 }
 
 .icon{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: #dcc4f5;
   font-size: 30px;
   padding: 1%;
+  color: var(--primary-color)
 }
 
 .contact-text h1{
+  font-family: 'Sriracha', cursive;
   font-size: 500%;
   color: var(--primary-color)
+}
+.contact-text h2{
+  padding: 1%;
 }
 
