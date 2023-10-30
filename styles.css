@@ -1,5 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
+/* Default styles for all screen sizes */
+/* For example, making all images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media query for smaller devices (e.g., mobile phones) */
+@media (max-width: 767px) {
+  /* CSS for smaller screens */
+  /* For example, adjust the layout, font sizes, etc. */
+}
+
+/* Media query for tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* CSS for tablets */
+}
+
+/* Media query for larger screens (e.g., desktops) */
+@media (min-width: 1024px) {
+  /* CSS for larger screens */
+}
+
 body{
   background-color: #dcc4f5;
 }
@@ -457,3 +480,4 @@ color: var(--primary-color)
   }
   
 }
+
