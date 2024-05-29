@@ -401,7 +401,7 @@ color: var(--primary-color)
 }
 
 .Javascript{
-  width: 50%;
+  width: 30%;
   animation: Javascript 3s;
 
 }
@@ -413,19 +413,19 @@ color: var(--primary-color)
 }
 
 .GraphicDesign{
-  width: 75%;
+  width: 60%;
   animation: GraphicDesign 3s;
 
 }
 
-.Valorant{
+.ComputerSkills{
   width: 90%;
-  animation: Valorant 3s;
+  animation: ComputerSkills 3s;
 }
 
-.GenshinImpact{
-  width: 95%;
-  animation: GenshinImpact 3s;
+.MicrosoftOffice{
+  width: 80%;
+  animation: MicrosoftOffice 3s;
 }
 
 @keyframes html{
@@ -453,7 +453,7 @@ color: var(--primary-color)
     width: 0%;
   }
   100%{
-    width: 50%;
+    width: 30%;
   }
   
 }
@@ -473,12 +473,12 @@ color: var(--primary-color)
     width: 0%;
   }
   100%{
-    width: 75%;
+    width: 60%;
   }
   
 }
 
-@keyframes Valorant{
+@keyframes ComputerSkills{
   0%{
     width: 0%;
   }
@@ -488,12 +488,12 @@ color: var(--primary-color)
   
 }
 
-@keyframes GenshinImpact{
+@keyframes MicrosoftOffice{
   0%{
     width: 0%;
   }
   100%{
-    width: 95%;
+    width: 80%;
   }
   
 }
